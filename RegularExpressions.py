@@ -57,3 +57,23 @@ mo1 = heroRegex.search('Batman and Tina Fey')
 print(mo1.group())
 mo2 = heroRegex.search('Tina Fey and Batman')
 print(mo2.group())
+
+haRegex = re.compile(r'(Ha){3}')
+mo1 = haRegex.search('HaHaHa')
+print(mo1.group())
+
+# greedy vs non-greedy
+greedyHaRegex = re.compile(r'(Ha){3,5}')
+mo1 = greedyHaRegex.search('HaHaHaHaHa')
+print('greedy: ',mo1.group())
+
+
+nongreedyHaRegex = re.compile(r'(Ha){3,5}?')
+mo2 = nongreedyHaRegex.search('HaHaHaHaHa')
+print('non-greedy: ',mo2.group())
+
+# search() returns a Match object only on the first instance of matching text
+# findall() to return all matches
+phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') # has no groups
+print(phoneNumRegex.findall('Cell: 415-555-9999 Work: 212-555-0000'))
+
