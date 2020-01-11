@@ -20,4 +20,3 @@ if guess == secretNumber:
     print('You ' + name + ', guessed my number in ' + str(guessesTaken) + ' guesses')
 else:
     print('Nope, the number I was thinking of is: ' + str(secretNumber))
-
