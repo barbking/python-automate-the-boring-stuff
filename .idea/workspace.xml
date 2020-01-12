@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40bd4f57-a423-42df-b232-34ba8616f1aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/BoxPrint.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Logging.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebScraping.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,31 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="FirstProgram.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FirstProgram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="869">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoxPrint.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BoxPrint.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
               <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebScraping.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebScraping.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,6 +56,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/FirstProgram.py" />
         <option value="$PROJECT_DIR$/BoxPrint.py" />
+        <option value="$PROJECT_DIR$/Logging.py" />
+        <option value="$PROJECT_DIR$/WebScraping.py" />
       </list>
     </option>
   </component>
@@ -126,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BoxPrint">
+  <component name="RunManager" selected="Python.WebScraping">
     <configuration name="BoxPrint" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +138,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="FirstProgram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -157,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-automate-the-boring-stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FirstProgram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,18 +192,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.FirstProgram" />
-      <item index="1" class="java.lang.String" itemvalue="Python.RegularExpressions" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PhoneEmailScraper" />
-      <item index="3" class="java.lang.String" itemvalue="Python.BoxPrint" />
+    <configuration name="WebScraping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-automate-the-boring-stuff" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebScraping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.RegularExpressions" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PhoneEmailScraper" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BoxPrint" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Logging" />
+      <item index="4" class="java.lang.String" itemvalue="Python.WebScraping" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.BoxPrint" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PhoneEmailScraper" />
-        <item index="2" class="java.lang.String" itemvalue="Python.RegularExpressions" />
-        <item index="3" class="java.lang.String" itemvalue="Python.FirstProgram" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.WebScraping" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Logging" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BoxPrint" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PhoneEmailScraper" />
+        <item index="4" class="java.lang.String" itemvalue="Python.RegularExpressions" />
       </list>
     </recent_temporary>
   </component>
@@ -307,18 +320,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RegularExpressions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BoxPrint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -331,10 +352,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BoxPrint.py">
+    <entry file="file://$PROJECT_DIR$/gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="212">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
