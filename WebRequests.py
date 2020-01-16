@@ -32,3 +32,4 @@ playFile.close()
 
 # for more info on requests
 # requests.readthedoc.org
+# good when know url, not good for logging into webpage
