@@ -21,3 +21,31 @@ print(str(elems[0])) # The Tag object as a string.
 print(elems[0].getText())
 #'Al Sweigart'
 print(elems[0].attrs)
+
+pElems = exampleSoup.select('p')
+str(pElems[0])
+#'<p>Download my <strong>Python</strong> book from <a href="https://
+#inventwithpython.com">my website</a>.</p>'
+pElems[0].getText()
+#'Download my Python book from my website.'
+str(pElems[1])
+#'<p class="slogan">Learn Python the easy way!</p>'
+pElems[1].getText()
+#'Learn Python the easy way!'
+str(pElems[2])
+#'<p>By <span id="author">Al Sweigart</span></p>'
+pElems[2].getText()
+#'By Al Sweigart'
+
+# get() method for Tag objects makes it simple to access attribute values from element
+import bs4
+soup = bs4.BeautifulSoup(open('example.html'), 'html.parser')
+spanElem = soup.select('span')[0]
+str(spanElem)
+#'<span id="author">Al Sweigart</span>'
+spanElem.get('id')
+#'author'
+spanElem.get('some_nonexistent_addr') == None
+#True
+spanElem.attrs
+#{'id': 'author'}
