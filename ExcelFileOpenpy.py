@@ -20,4 +20,18 @@ c.value
 #'Row 1, Column B is Apples'
 'Cell %s is %s' % (c.coordinate, c.value)
 #'Cell B1 is Apples'
-sheet['C1'].value
+sheet['C1']
+
+#getting rows and cols from sheet
+wb = openpyxl.load_workbook('example.xlsx')
+sheet = wb['Sheet1']
+tuple(sheet['A1':'C3']) # Get all cells from A1 to C3.
+for rowOfCellObjects in sheet['A1':'C3']:
+    for cellObj in rowOfCellObjects:
+        print(cellObj.coordinate, cellObj.value)
+    print('--- END OF ROW ---')
+
+sheet = wb.active
+list(sheet.columns)[1] # Get second column's cells.
+for cellObj in list(sheet.columns)[1]:
+    print(cellObj.value)
